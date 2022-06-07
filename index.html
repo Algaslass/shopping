@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css -->
+    <link rel="stylesheet" href="styles.css">
+  <title>Shop Lux</title>
+</head>
+
+<body>
+    <div class="main-container">
+      <nav class="nav-bar">
+        <div class="nav-el">
+          <img src="logo.png" alt="logo" class="logo" />
+        </div>
+        <div class="nav-el">
+          <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Store">Store</a></li>
+          </ul>
+        </div>
+        <div class="nav-el">
+          <li><i class="fa-solid fa-phone-flip"></i>+212630717655</li>
+          <button class="btn" id="panier">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h3 style="margin: 0" id="nomb"></h3>
+          </button>
+        </div>
+      </nav>
+      <section class="bg">
+        <div class="chario" id="charette">
+          <div class="contenu" id="container"></div>
+
+          <div class="guichet">
+            <div class="price">
+              <h3>Total</h3>
+              <h3 id="total-el"></h3>
+            </div>
+            <div class="checked">
+              <button class="btn-vide5">CLEAR CART</button>
+              <button class="btn-vide6">CHECKOUT</button>
+            </div>
+          </div>
+        </div>
+        <div class="pres">
+          <h1>Luxirious Lifestyle</h1>
+          <button class="btn-vide1">Explore</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="ecris-left">
+          <h2>About <span>Us</span></h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, sed
+            dolorum. Deleniti, iste ad alias accusantium voluptatum ratione
+            saepe, nesciunt accusamus beatae, qui consequuntur nobis officiis
+            sunt voluptatibus aliquid possimus?
+          </p>
+          <button class="btn-vide2">EXPLORE</button>
+        </div>
+        <div class="photo-right"></div>
+      </section>
+      <section class="boutique">
+        <div class="cart">
+          <h2>Our <span>Store</span></h2>
+        </div>
+        <div class="les-btn">
+          <button class="btn-vide">ALL</button>
+          <button class="btn-vide">ICE</button>
+          <button class="btn-vide">GOLD</button>
+          <button class="btn-vide">STANDARD</button>
+          <button class="btn-vide">PERSONALISED</button>
+        </div>
+        <form action="" class="search">
+          <i class="fa-solid fa-magnifying-glass rouge"></i
+          ><input type="text" name="" id="barre" placeholder="item..." />
+        </form>
+        <div class="les-produits" id="products"></div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
